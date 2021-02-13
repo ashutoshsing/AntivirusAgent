@@ -64,5 +64,5 @@ echo Install the agent package successfully
 
 sleep 15
 /opt/ds_agent/dsa_control -r
-/opt/ds_agent/dsa_control -a $ACTIVATIONURL "policyid:46"
-# /opt/ds_agent/dsa_control -a dsm://TMmanager:4120/ "policyid:46"
+/opt/ds_agent/dsa_control -a $ACTIVATIONURL "policyid:46" "groupid:241"
+# /opt/ds_agent/dsa_control -a dsm://TMmanager:4120/ "policyid:46" "groupid:241"
